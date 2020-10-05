@@ -10,3 +10,4 @@ str_mot = input("Какой сейчас месяц?")
 num_ear = int(input("Какой сейчас год?"))
 
 print("По вашим данным сегодня:", str_day, str_mot, num_ear, "год")
+
