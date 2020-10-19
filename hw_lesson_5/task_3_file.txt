@@ -1,0 +1,5 @@
+Butcher : 40000
+Frenchie : 19000
+Mother's Milk : 30000
+The Female : 18000
+Hughie : 25000
