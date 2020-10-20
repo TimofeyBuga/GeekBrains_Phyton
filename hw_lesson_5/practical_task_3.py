@@ -5,12 +5,11 @@
 # Выполнить подсчет средней величины дохода сотрудников.
 
 the_boys = {"Butcher": 40000, "Frenchie": 19000, "Mother's Milk": 30000, "The Female": 18000, "Hughie": 25000}
-try:
-    firm_the_boys = open("task_3_file.txt", "w")
+
+with open("task_3_file.txt", "w") as firm_the_boys:
     for name_worker, cash in the_boys.items():
         firm_the_boys.write(f"{name_worker} : {str(cash)}\n")
-finally:
-    firm_the_boys.close()
+
 
 all_cash = 0
 score = 0
